@@ -1,7 +1,7 @@
 const pool = require('./db'); // load/import the pool libraries that was written on other file
 
-const sql = 'UPDATE public.supplier SET supp_name = $1 WHERE supp_id =3 RETURNING *';
-const data = ['LAHORA, KRISTAN LOURD P.'];
+const sql = 'INSERT INTO public.purchaseorder(po_product) VALUES ($1) RETURNING *';
+const data = ['mouse pad'];
 
 // use the pool's query method
 pool.query(sql, data, (err, res) => {
