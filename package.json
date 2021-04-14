@@ -1,0 +1,25 @@
+{
+  "name": "webshop",
+  "version": "1.0.0",
+  "description": "webshop task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgomera/webshop.git"
+  },
+  "keywords": [
+    "webshop"
+  ],
+  "author": "gomeraLahora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgomera/webshop/issues"
+  },
+  "homepage": "https://github.com/rgomera/webshop#readme",
+  "dependencies": {
+    "pg": "^8.6.0"
+  }
+}
